@@ -15,9 +15,13 @@ int main ()
 	string word;
 	string words[] =
 	{
-		"frank",
-		"nguyen",
-		"truong"
+		"red",
+		"orange",
+        "yellow",
+        "green",
+        "blue",
+        "indigo",
+		"violet"
         
 	};
 
@@ -30,7 +34,7 @@ int main ()
 	string unknown(word.length(),'*');
 
 	// welcome the user
-	cout << "\n\nWelcome to hangman...Guess a country Name";
+	cout << "\n\nWelcome to hangman...Guess colors of the rainbow";
 	cout << "\n\nEach letter is represented by a star.";
 	cout << "\n\nYou have to type only one letter in one try";
 	cout << "\n\nYou have " << MAX_TRIES << " tries to try and guess the word.";
